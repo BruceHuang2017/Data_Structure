@@ -1,0 +1,15 @@
+
+find all nodes
+
+generate dictionary for "each_nodes : connected nodes". parents found.
+
+then solve Q1 and Q2 by using parents dictionary.
+
+use shorest_path_in_graph to find shortest path for each node towards given node. 
+
+use the generated shortest_path_in_graph dictionary, can calcualte the steps to get the target node. 
+
+then solve Q3.
+
+re-arrenge 'spig' dictionary to get max_path_in_graph. 
+
